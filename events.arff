@@ -1,0 +1,70 @@
+@relation events
+
+@attribute name string
+@attribute location string
+@attribute description string
+@attribute type {Conference,Wedding,Concert,Workshop,Meetup,Party}
+
+@data
+'wedding','london','hsgf',Conference
+'wedding','london','dsgsgds',Wedding
+'AI Summit','London','AI conference with workshops',Conference
+'Sarah & Tom’s Wedding','Manchester','Private family wedding',Wedding
+'Java Programming Workshop','Coventry','Learn Java Basics',Workshop
+'New Year Bash','Birmingham','Celebrate the New Year',Party
+'Tech Innovations','Edinburgh','Showcase of tech trends',Conference
+'Data Science Bootcamp','London','Intro to data science techniques',Workshop
+'Emily & Jack’s Wedding','Leeds','Garden wedding celebration',Wedding
+'Graduation Party','Cardiff','Celebrate with graduates',Party
+'Healthcare Tech','Glasgow','Innovations in healthcare tech',Conference
+'Cybersecurity Basics','Liverpool','Intro to online safety',Workshop
+'AI Innovations Expo','London','Explore latest trends in AI and ML.',Conference
+'Global Tech Forum','New York','Technology leaders sharing innovations.',Conference
+'Sustainability Summit','Berlin','Discussions on sustainable development.',Conference
+'Healthcare 2025','Glasgow','Innovations in healthcare tech.',Conference
+'EduTech World','Paris','Educational technologies for the future.',Conference
+'CyberTech Europe','Amsterdam','Cybersecurity and privacy topics.',Conference
+'Quantum Future','Zurich','Quantum computing symposium.',Conference
+'Climate Action Now','Oslo','Climate change and policy summit.',Conference
+'Smart Cities Forum','Tokyo','Urban technology and innovation.',Conference
+'Women in Tech','San Francisco','Empowering women in STEM fields.',Conference
+'Java Bootcamp','Coventry','Hands-on Java programming basics.',Workshop
+'Data Science 101','London','Intro to data science techniques.',Workshop
+'Cybersecurity Basics','Liverpool','Intro to online safety.',Workshop
+'UI/UX Design Sprint','Manchester','Design interactive experiences.',Workshop
+'Agile Development','Leeds','Agile methodologies workshop.',Workshop
+'Python for Beginners','Sheffield','Basic Python coding workshop.',Workshop
+'Cloud Fundamentals','Dublin','Intro to cloud computing.',Workshop
+'Digital Marketing 101','Bristol','Basics of digital marketing.',Workshop
+'SQL Masterclass','Nottingham','Deep dive into SQL queries.',Workshop
+'Mobile App Dev','Brighton','Build your first Android app.',Workshop
+'Sarah & Tom’s Wedding','Manchester','Private family wedding.',Wedding
+'Emily & Jack’s Wedding','Leeds','Garden wedding celebration.',Wedding
+'Olivia & Ben','Birmingham','Traditional English wedding.',Wedding
+'Liam & Emma','Cardiff','Rustic outdoor wedding.',Wedding
+'Chloe & Ethan','Glasgow','Coastal ceremony and reception.',Wedding
+'Noah & Lily','York','Historic castle wedding.',Wedding
+'Ava & James','Belfast','Elegant church ceremony.',Wedding
+'Mason & Mia','Newcastle','Winter wonderland wedding.',Wedding
+'Sophie & Lucas','Exeter','Intimate countryside wedding.',Wedding
+'Harper & Owen','Oxford','Classic wedding at university venue.',Wedding
+'New Year Bash','Birmingham','Celebrate the New Year.',Party
+'Graduation Party','Cardiff','Celebrate with graduates.',Party
+'Halloween Spookfest','Liverpool','Costume party and fun activities.',Party
+'Summer Luau','Brighton','Beachside summer bash.',Party
+'Christmas Gala','Nottingham','Formal holiday celebration.',Party
+'Valentine’s Dance','London','Love-themed event.',Party
+'St. Patrick’s Party','Dublin','Green-themed celebration.',Party
+'Carnival Fiesta','Leicester','Lively carnival with music and games.',Party
+'Back-to-School Bash','Bristol','Start of academic year celebration.',Party
+'Spring Bloom Festival','Bath','Celebrate nature and renewal.',Party
+'Tech Innovations','Edinburgh','Showcase of tech trends.',Conference
+'AI Summit','London','AI conference with workshops.',Conference
+'Photography Workshop','York','Learn camera basics and composition.',Workshop
+'Startup Pitch Day','Cambridge','Pitch your startup to investors.',Conference
+'Mini Coding Camp','Reading','Teens learn to code in 2 days.',Workshop
+'Henna Night','Bradford','Pre-wedding celebration.',Party
+'Anna & John’s Wedding','Derby','Modern chic wedding.',Wedding
+'Team Building Camp','Coventry','Outdoor games and leadership training.',Workshop
+'Digital Ethics Conf','Leeds','Tech and moral discussions.',Conference
+'Bollywood Night','Leicester','Music and dancing Bollywood-style.',Party

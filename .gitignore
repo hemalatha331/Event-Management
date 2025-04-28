@@ -1,0 +1,23 @@
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.bak
+*.class
+*.log
+
+# Java Specific
+*.class
+*.war
+*.ear
+
+# Misc
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.idea/
+
